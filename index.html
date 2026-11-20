@@ -22,7 +22,7 @@
       <a class="nav-link" href="#collection">The collection</a>
       <a class="nav-link" href="#about">Our little corner</a>
     </nav>
-    <a class="header-cta" href="#collection">Find your next favorite <span aria-hidden="true">↗</span></a>
+    <button class="header-cta" id="open-auth" type="button">Sign in <span aria-hidden="true">↗</span></button>
   </header>
 
   <main>
@@ -47,36 +47,36 @@
         <svg class="twilight-scene" viewBox="0 0 760 690" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <defs>
             <linearGradient id="sky" x1="0" y1="0" x2="0.8" y2="1">
-              <stop offset="0" stop-color="#29214b"/>
-              <stop offset=".48" stop-color="#a44d78"/>
-              <stop offset="1" stop-color="#f2a574"/>
+              <stop offset="0" stop-color="#1b3425"/>
+              <stop offset=".48" stop-color="#4f7946"/>
+              <stop offset="1" stop-color="#b6ce78"/>
             </linearGradient>
             <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-              <stop stop-color="#84476d"/>
-              <stop offset="1" stop-color="#242b49"/>
+              <stop stop-color="#507a4a"/>
+              <stop offset="1" stop-color="#1e3829"/>
             </linearGradient>
             <linearGradient id="sun-glow" x1="0" x2="1">
-              <stop stop-color="#ffcf91" stop-opacity=".04"/>
-              <stop offset=".5" stop-color="#ffcf91" stop-opacity=".42"/>
-              <stop offset="1" stop-color="#ffcf91" stop-opacity=".04"/>
+              <stop stop-color="#d8ed9c" stop-opacity=".04"/>
+              <stop offset=".5" stop-color="#d8ed9c" stop-opacity=".42"/>
+              <stop offset="1" stop-color="#d8ed9c" stop-opacity=".04"/>
             </linearGradient>
           </defs>
           <rect width="760" height="690" fill="url(#sky)"/>
-          <circle cx="505" cy="275" r="152" fill="#ffb57d" opacity=".12"/>
-          <circle cx="505" cy="275" r="96" fill="#ffd29c"/>
-          <path d="M0 375 104 326l68 28 93-83 92 74 100-53 77 63 77-37 149 76v95H0Z" fill="#39304f" opacity=".84"/>
-          <path d="m0 428 111-53 94 32 102-70 83 63 107-57 108 68 74-31 81 30v91H0Z" fill="#292a48"/>
+          <circle cx="505" cy="275" r="152" fill="#d8ed9c" opacity=".12"/>
+          <circle cx="505" cy="275" r="96" fill="#deefa9"/>
+          <path d="M0 375 104 326l68 28 93-83 92 74 100-53 77 63 77-37 149 76v95H0Z" fill="#354d34" opacity=".84"/>
+          <path d="m0 428 111-53 94 32 102-70 83 63 107-57 108 68 74-31 81 30v91H0Z" fill="#263e2c"/>
           <path d="M0 445h760v245H0z" fill="url(#water)"/>
           <path d="M431 445h150l-40 245H460z" fill="url(#sun-glow)"/>
-          <path d="M456 474h100m-87 17h74m-90 18h107m-88 21h75m-104 23h133m-124 27h105m-91 29h79m-112 31h142m-121 26h97m-112 32h122" stroke="#ffd19e" stroke-opacity=".48" stroke-width="3" stroke-linecap="round"/>
-          <path d="M0 533c95-18 157 15 249-1s151-14 228 3 165-9 283-2v157H0z" fill="#222940" opacity=".5"/>
-          <path d="M0 600c88-15 162 12 254 0s174-8 245 4 169-10 261-2v88H0z" fill="#1b2037"/>
-          <path d="M79 370v85m0-47h120m-119-18h120m-120 0 18-40h85l17 40" fill="none" stroke="#20233b" stroke-width="8" stroke-linejoin="round"/>
-          <path d="M52 458h173m-163 0v48m153-48v48m-163 0h173" fill="none" stroke="#20233b" stroke-width="7"/>
-          <rect x="110" y="431" width="56" height="36" rx="3" fill="#ffc77f"/>
-          <rect x="117" y="438" width="17" height="19" fill="#624362"/>
-          <rect x="142" y="438" width="17" height="19" fill="#624362"/>
-          <path d="M0 485h78" stroke="#ffd399" stroke-width="3" stroke-dasharray="3 12" opacity=".7"/>
+          <path d="M456 474h100m-87 17h74m-90 18h107m-88 21h75m-104 23h133m-124 27h105m-91 29h79m-112 31h142m-121 26h97m-112 32h122" stroke="#d8ed9c" stroke-opacity=".48" stroke-width="3" stroke-linecap="round"/>
+          <path d="M0 533c95-18 157 15 249-1s151-14 228 3 165-9 283-2v157H0z" fill="#223a2a" opacity=".5"/>
+          <path d="M0 600c88-15 162 12 254 0s174-8 245 4 169-10 261-2v88H0z" fill="#192d21"/>
+          <path d="M79 370v85m0-47h120m-119-18h120m-120 0 18-40h85l17 40" fill="none" stroke="#1b3023" stroke-width="8" stroke-linejoin="round"/>
+          <path d="M52 458h173m-163 0v48m153-48v48m-163 0h173" fill="none" stroke="#1b3023" stroke-width="7"/>
+          <rect x="110" y="431" width="56" height="36" rx="3" fill="#b9d982"/>
+          <rect x="117" y="438" width="17" height="19" fill="#39583b"/>
+          <rect x="142" y="438" width="17" height="19" fill="#39583b"/>
+          <path d="M0 485h78" stroke="#d4eaa0" stroke-width="3" stroke-dasharray="3 12" opacity=".7"/>
           <path d="M0 0h760v690H0z" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
           <g fill="#fff1d8" opacity=".8">
             <circle cx="110" cy="106" r="2"/><circle cx="205" cy="79" r="1.5"/><circle cx="303" cy="148" r="2"/>
@@ -185,6 +185,43 @@
     <p>For the love of a good story, and the hours that come after.</p>
     <span class="footer-note">MADE UNDER THE SAME MOON <span>☾</span></span>
   </footer>
+
+  <dialog class="auth-dialog" id="auth-dialog" aria-labelledby="auth-title">
+    <button class="auth-close" id="auth-close" type="button" aria-label="Close sign in">&times;</button>
+    <div class="auth-card">
+      <p class="auth-eyebrow">ENTER THE REALM</p>
+      <h2 id="auth-title">Create your account</h2>
+      <p class="auth-subtitle" id="auth-subtitle">Join the adventure. Your journey starts here.</p>
+      <form class="auth-form" id="auth-form">
+        <div class="auth-field" id="username-field">
+          <label for="auth-username">Username</label>
+          <input id="auth-username" name="username" type="text" placeholder="Choose a username" autocomplete="username" minlength="3" maxlength="32" pattern="[A-Za-z0-9_\-]+" required>
+        </div>
+        <div class="auth-field">
+          <label for="auth-email">Email</label>
+          <input id="auth-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" maxlength="254" required>
+        </div>
+        <div class="auth-field">
+          <label for="auth-password">Password</label>
+          <input id="auth-password" name="password" type="password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8" maxlength="128" required>
+        </div>
+        <div class="auth-field" id="confirm-field">
+          <label for="auth-confirm">Confirm password</label>
+          <input id="auth-confirm" name="confirm" type="password" placeholder="Enter your password again" autocomplete="new-password" minlength="8" maxlength="128" required>
+        </div>
+        <button class="auth-submit" id="auth-submit" type="submit">Create account</button>
+        <p class="auth-status" id="auth-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="auth-divider"><span>or</span></div>
+      <button class="auth-google" id="auth-google" type="button">
+        <span aria-hidden="true">G</span> Continue with Google
+      </button>
+      <p class="auth-toggle-copy">
+        <span id="auth-toggle-copy">Already have an account?</span>
+        <button id="auth-toggle" type="button">Sign in</button>
+      </p>
+    </div>
+  </dialog>
 
   <script src="script.js"></script>
 </body>
