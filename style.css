@@ -76,7 +76,7 @@ button { color: inherit; }
 .header-cta:hover { background: rgba(86,205,50,.09); border-color: rgba(86,205,50,.55); }
 .menu-toggle { display: none; }
 
-.hero {
+.Qi {
   min-height: 667px;
   padding: 74px 7.1% 0;
   display: grid;
@@ -86,7 +86,7 @@ button { color: inherit; }
   position: relative;
   overflow: hidden;
 }
-.hero-copy { align-self: center; padding: 5px 0 45px; position: relative; z-index: 1; }
+.Qi-copy { align-self: center; padding: 5px 0 45px; position: relative; z-index: 1; }
 .eyebrow {
   display: flex;
   align-items: center;
@@ -98,7 +98,7 @@ button { color: inherit; }
   text-transform: uppercase;
 }
 .eyebrow-line { display: inline-block; width: 23px; height: 1px; background: var(--accent); }
-.hero h1 {
+.Qi h1 {
   margin: 27px 0 18px;
   font-size: clamp(53px, 6vw, 79px);
   font-weight: 500;
@@ -106,14 +106,14 @@ button { color: inherit; }
   line-height: .99;
 }
 h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500; }
-.hero-description {
+.Qi-description {
   max-width: 370px;
   margin: 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.9;
 }
-.hero-actions { display: flex; align-items: center; gap: 24px; margin-top: 29px; }
+.Qi-actions { display: flex; align-items: center; gap: 24px; margin-top: 29px; }
 .button {
   min-height: 43px;
   padding: 0 17px;
@@ -132,7 +132,7 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
 .text-link { color: var(--muted); font-size: 10px; transition: color .2s ease; }
 .text-link:hover { color: var(--ink); }
 .text-link span { padding-left: 5px; color: var(--accent); }
-.hero-note { display: flex; align-items: center; gap: 12px; margin-top: 43px; }
+.Qi-note { display: flex; align-items: center; gap: 12px; margin-top: 43px; }
 .avatar-stack { display: flex; }
 .avatar-stack span {
   width: 25px;
@@ -149,10 +149,10 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
 }
 .avatar-stack span:first-child { margin-left: 0; background: #3b6038; }
 .avatar-stack span:last-child { background: #263d30; }
-.hero-note p { margin: 0; color: var(--dim); font-size: 9px; line-height: 1.7; }
-.hero-note strong { color: #d8e7d2; font-weight: 500; }
+.Qi-note p { margin: 0; color: var(--dim); font-size: 9px; line-height: 1.7; }
+.Qi-note strong { color: #d8e7d2; font-weight: 500; }
 
-.hero-art {
+.Qi-art {
   min-height: 504px;
   max-height: 558px;
   align-self: center;
@@ -199,7 +199,7 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
 .caption-dot { width: 5px; height: 5px; margin-top: 6px; border-radius: 50%; background: var(--accent); }
 .art-index { position: absolute; z-index: 2; right: 23px; bottom: 25px; font-size: 9px; letter-spacing: 1px; }
 .art-index span { padding: 0 4px; color: var(--accent); }
-.hero-bottom {
+.Qi-bottom {
   grid-column: 1 / -1;
   align-self: center;
   display: flex;
@@ -210,7 +210,7 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
   letter-spacing: 1.45px;
 }
 .scroll-line { width: 45px; height: 1px; background: #587456; }
-.hero-bottom span:last-child { margin-left: auto; }
+.Qi-bottom span:last-child { margin-left: auto; }
 
 .section-wrap { padding: 104px 7.1% 96px; }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 25px; }
@@ -376,13 +376,13 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
 .footer-note span { padding-left: 5px; color: var(--accent); font-size: 12px; }
 
 @media (min-width: 1500px) {
-  .site-header, .hero, .section-wrap, .site-footer { padding-left: max(7.1%, calc((100% - 1300px) / 2)); padding-right: max(7.1%, calc((100% - 1300px) / 2)); }
+  .site-header, .Qi, .section-wrap, .site-footer { padding-left: max(7.1%, calc((100% - 1300px) / 2)); padding-right: max(7.1%, calc((100% - 1300px) / 2)); }
 }
 @media (max-width: 980px) {
   .site-header { padding: 0 5%; }
-  .hero { min-height: 610px; padding: 62px 5% 0; grid-template-columns: minmax(310px,.85fr) minmax(380px,1.15fr); column-gap: 3%; }
-  .hero h1 { font-size: clamp(50px, 6.7vw, 67px); letter-spacing: -4px; }
-  .hero-art { min-height: 450px; }
+  .Qi { min-height: 610px; padding: 62px 5% 0; grid-template-columns: minmax(310px,.85fr) minmax(380px,1.15fr); column-gap: 3%; }
+  .Qi h1 { font-size: clamp(50px, 6.7vw, 67px); letter-spacing: -4px; }
+  .Qi-art { min-height: 450px; }
   .section-wrap { padding: 84px 5%; }
   .about-band { padding: 48px 6%; gap: 5%; }
   .about-orbit { width: 150px; height: 150px; flex-basis: 150px; }
@@ -422,13 +422,13 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
     background: var(--bg);
   }
   .primary-nav.open { display: flex; }
-  .hero { min-height: auto; padding: 52px 6% 0; display: flex; flex-direction: column; gap: 34px; }
-  .hero-copy { width: 100%; padding: 0; }
-  .hero h1 { margin-top: 20px; font-size: clamp(54px, 12vw, 76px); }
-  .hero-description { max-width: 400px; }
-  .hero-note { margin-top: 30px; }
-  .hero-art { width: 100%; min-height: auto; aspect-ratio: 1.06 / 1; }
-  .hero-bottom { min-height: 56px; width: 100%; }
+  .Qi { min-height: auto; padding: 52px 6% 0; display: flex; flex-direction: column; gap: 34px; }
+  .Qi-copy { width: 100%; padding: 0; }
+  .Qi h1 { margin-top: 20px; font-size: clamp(54px, 12vw, 76px); }
+  .Qi-description { max-width: 400px; }
+  .Qi-note { margin-top: 30px; }
+  .Qi-art { width: 100%; min-height: auto; aspect-ratio: 1.06 / 1; }
+  .Qi-bottom { min-height: 56px; width: 100%; }
   .section-wrap { padding: 76px 6%; }
   .section-heading { display: block; }
   .section-intro { max-width: 320px; margin-top: 13px; }
@@ -444,13 +444,13 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 500
 }
 @media (max-width: 480px) {
   .header-cta { max-width: 159px; }
-  .hero { padding-top: 42px; gap: 27px; }
-  .hero h1 { font-size: 55px; letter-spacing: -3.8px; }
-  .hero-actions { gap: 14px; }
+  .Qi { padding-top: 42px; gap: 27px; }
+  .Qi h1 { font-size: 55px; letter-spacing: -3.8px; }
+  .Qi-actions { gap: 14px; }
   .button { padding: 0 12px; gap: 10px; font-size: 10px; }
-  .hero-bottom { gap: 8px; font-size: 7px; letter-spacing: .8px; }
+  .Qi-bottom { gap: 8px; font-size: 7px; letter-spacing: .8px; }
   .scroll-line { width: 23px; }
-  .hero-bottom span:last-child { max-width: 120px; text-align: right; line-height: 1.5; }
+  .Qi-bottom span:last-child { max-width: 120px; text-align: right; line-height: 1.5; }
   .section-heading h2 { font-size: 35px; }
   .collection-toolbar { align-items: flex-start; flex-direction: column; gap: 15px; }
   .filters { gap: 2px; }
