@@ -22,7 +22,7 @@
       <a class="nav-link" href="#collection">The collection</a>
       <a class="nav-link" href="#about">Our little corner</a>
     </nav>
-    <button class="header-cta" id="open-auth" type="button">Sign in <span aria-hidden="true">↗</span></button>
+    <button class="header-cta" type="button">Sign in <span aria-hidden="true">↗</span></button>
   </header>
 
   <main>
@@ -185,43 +185,6 @@
     <p>For the love of a good story, and the hours that come after.</p>
     <span class="footer-note">MADE UNDER THE SAME MOON <span>☾</span></span>
   </footer>
-
-  <dialog class="auth-dialog" id="auth-dialog" aria-labelledby="auth-title">
-    <button class="auth-close" id="auth-close" type="button" aria-label="Close sign in">&times;</button>
-    <div class="auth-card">
-      <p class="auth-eyebrow">ENTER THE REALM</p>
-      <h2 id="auth-title">Create your account</h2>
-      <p class="auth-subtitle" id="auth-subtitle">Join the adventure. Your journey starts here.</p>
-      <form class="auth-form" id="auth-form">
-        <div class="auth-field" id="username-field">
-          <label for="auth-username">Username</label>
-          <input id="auth-username" name="username" type="text" placeholder="Choose a username" autocomplete="username" minlength="3" maxlength="32" pattern="[A-Za-z0-9_\-]+" required>
-        </div>
-        <div class="auth-field">
-          <label for="auth-email">Email</label>
-          <input id="auth-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" maxlength="254" required>
-        </div>
-        <div class="auth-field">
-          <label for="auth-password">Password</label>
-          <input id="auth-password" name="password" type="password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8" maxlength="128" required>
-        </div>
-        <div class="auth-field" id="confirm-field">
-          <label for="auth-confirm">Confirm password</label>
-          <input id="auth-confirm" name="confirm" type="password" placeholder="Enter your password again" autocomplete="new-password" minlength="8" maxlength="128" required>
-        </div>
-        <button class="auth-submit" id="auth-submit" type="submit">Create account</button>
-        <p class="auth-status" id="auth-status" role="status" aria-live="polite"></p>
-      </form>
-      <div class="auth-divider"><span>or</span></div>
-      <button class="auth-google" id="auth-google" type="button">
-        <span aria-hidden="true">G</span> Continue with Google
-      </button>
-      <p class="auth-toggle-copy">
-        <span id="auth-toggle-copy">Already have an account?</span>
-        <button id="auth-toggle" type="button">Sign in</button>
-      </p>
-    </div>
-  </dialog>
 
   <script src="script.js"></script>
 </body>
